@@ -36,7 +36,7 @@ async def hello(websocket,path):
         await websocket.send(raspuns)
 
     #np at end = nmap
-    if process == "np"
+    if process == "np":
         print("NMAP")
         scanare_nmap = os.system("nmap " + adr + "> tmp")
         scanare_nmap = open('tmp', 'r').read()
