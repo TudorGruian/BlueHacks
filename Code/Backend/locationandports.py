@@ -2,7 +2,7 @@ import socket
 import json
 import requests
 import os
-
+#this is a test
 
 r = input("IP sau Domain? ")
 adr = input("Introduce pricina ")
